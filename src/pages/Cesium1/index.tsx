@@ -1,39 +1,3 @@
-# GIS 学习 demo
-
-`@umijs/max` 模板项目，更多功能参考 [Umi Max 简介](https://umijs.org/docs/max/introduce)
-
-- 依赖安装
-
-```bash
-pnpm i
-# or
-yarn
-# or
-npm i
-```
-
-- start
-
-```bash
-yarn start
-```
-
-### 参考
-
-- cesium，github：https://github.com/CesiumGS/cesium
-  - 前端使用 cesiumjs 实现,文档：https://cesium.com/learn/cesiumjs-learn/cesiumjs-quickstart/
-
-#### react 中简单使用
-
-- 安装
-
-```bash
-pnpm install cesium --save
-```
-
-- 使用
-
-```ts
 // URL 必须设置，否则3D地图不会显示
 window.CESIUM_BASE_URL = '/node_modules/cesium/Build/Cesium';
 
@@ -69,4 +33,3 @@ const CesiumComponent = () => {
   );
 };
 export default CesiumComponent;
-```
